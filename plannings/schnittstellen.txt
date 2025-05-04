@@ -1,0 +1,39 @@
+Übergaben Frontend nach Backend
+
+für Startseite keine $action (string)
+sonst
+- GET: showList
+- GET: showCreate
+- GET: showUpdate, dann mit $id
+- GET: delete, dann mit $id
+
+neuer Mitarbeiter
+-POST: $action = create
+-POST: firstName
+-POST: lastName
+-POST: departmentId
+
+geänderter Mitarbeiter
+-POST: $action = update
+-POST: firstName
+-POST: lastName
+-POST: departmentId
+-POST: id
+
+Übergabe von Backend nach Frontend
+
+für view: showList
+$employees als array von employees plus getSeedEmployees()
+
+employee-Objekt
+- id
+- firstName
+- lastName
+- departmentId
+
+mit Getter-Methoden
+
+für view: showUpdateAndCreate
+
+- bei update: employee-Objekt s.o.
+- bei create: null

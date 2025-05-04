@@ -1,0 +1,17 @@
+Neue Anforderung
+
+jede Abteilung soll mit ihren Mitarbeitern ausgegeben werden,
+(nur bezogen auf db-Version).
+
+Frontend:
+- listDepartment erweitern um 3. Button
+je Zeile (zum Navigieren)
+- Ausgabe als showListEmployee
+
+Backend:
+a) Query im Employee
+- getAllEmployeesByDepartment(Department department)
+b) Methode im DepartmentDb:
+- getAllEmployees() -> fragt im Employee nach, welche employees das sind.
+
+

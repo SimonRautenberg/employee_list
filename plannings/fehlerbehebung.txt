@@ -1,0 +1,4 @@
+- Syntaxfehler
+- logische Fehler (im Code)
+- Speicherprobleme (RAM)
+- Datenbankfehler (Traffic)

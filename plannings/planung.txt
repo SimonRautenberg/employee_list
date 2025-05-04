@@ -1,0 +1,40 @@
+--------------
+  Lastenheft
+--------------
+
+
+Seite mit Liste
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+- Spalte mit Edit & Delete Knopf
+- Headerzeile anpassen, Design anpassen
+- Knopf 'Neue Person'
+- Datei mit dummy-Daten erstellen
+- Funktion(en) beim Laden aufrufen
+  die die Daten und Struktur aus dummy-Daten erstellt
+- Ändern-Knopf Funktionalität (id an Edit-Seite senden)
+- Lösch-Knopf  "       "
+- ohne dummy-Daten bei leerer Datei: Aktion -> create
+
+
+
+Edit-Create-Seite
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+- Formular erstellen: vorname, nachname, abteilungId (id vorausgefüllt)
+- Knöpfe 'Abbrechen' und 'Speichern' erstellen
+- Funktionsauswahl treffen (Metainformationen GET)
+	- create - leeres Formular
+	- edit - aktuellen Datensatz holen und anzeigen (via id)
+	- delete - Person löschen via id -> zurück zu Liste
+- Speichern Button: Daten speichern -> zurück zu Liste
+- Abbruch Button: Eintrag verwerfen -> zurück zu Liste
+
+
+Erweiterung Abteilung
+---------------------
+Abteilung soll analog zu einer CRUD-Anwendung programmiert werden.
+Anschießend soll die Navigation erweitert werden.
+Danach soll in der EmployeeList nicht mehr die AbteilungId angezeigt werden,
+sondern der Name der Abteilung. Beim Erstellen eines Mitarbeiters soll bei
+der Abteilung die Auswahl der Abteilungen stehen (siehe Mockups).
